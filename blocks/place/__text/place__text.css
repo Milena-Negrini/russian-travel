@@ -1,0 +1,22 @@
+.place__text {
+    margin: 0;
+}
+
+
+.place__text:first-of-type {
+    padding-bottom: 28px;
+}
+
+
+@media (max-width:1024px) {
+    .place__text:first-of-type {
+        padding-bottom: 27px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .place__text:first-of-type {
+        padding-bottom: 25px;
+    }
+}

@@ -1,0 +1,16 @@
+.footer__copyright {
+    margin: 0;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-self: self-end;
+}
+
+
+@media (max-width:320px) {
+    .footer__copyright {
+    align-self: self-start;
+    }
+}

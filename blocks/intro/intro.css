@@ -1,0 +1,31 @@
+.intro {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 148px;
+}
+
+
+@media (max-width:1024px) {
+    .intro {
+        padding-left: 48px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .intro {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+
+@media (max-width:320px) {
+    .intro {
+        padding-left: 16px;
+    }
+}
+
+

@@ -1,0 +1,25 @@
+.lead__illustraition {
+    width: 100%;
+    max-width: 984px;
+    padding-top: 64px;
+}
+
+
+@media (max-width:1024px) {
+    .lead__illustraition {
+        max-width: 928px;
+        padding-top: 56px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .lead__illustraition {
+        max-width: 768px;
+        padding-top: 56px;
+    }
+}
+
+
+
+
