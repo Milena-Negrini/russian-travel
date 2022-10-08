@@ -9,8 +9,15 @@
 }
 
 
+@media screen and (max-width:640px) {
+    .footer__copyright {
+    align-self: self-start;
+    }
+}
+
 @media screen and (max-width:320px) {
     .footer__copyright {
     align-self: self-start;
     }
 }
+
