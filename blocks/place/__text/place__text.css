@@ -8,14 +8,14 @@
 }
 
 
-@media (max-width:1024px) {
+@media screen and (max-width:1024px) {
     .place__text:first-of-type {
         padding-bottom: 27px;
     }
 }
 
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
     .place__text:first-of-type {
         padding-bottom: 25px;
     }

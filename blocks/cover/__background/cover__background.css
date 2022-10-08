@@ -27,7 +27,7 @@
   }
 
 
-@media (max-width:1024px) {
+@media screen and (max-width:1024px) {
     .cover__background {
         max-width:  1024px;
         min-height: 640px;
@@ -35,7 +35,7 @@
 }
 
 
-@media (max-width:360px) {
+@media screen and (max-width:360px) {
     .cover__background {
         max-width:  320px;
         min-height: 200px;

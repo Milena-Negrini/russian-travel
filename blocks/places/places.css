@@ -6,14 +6,14 @@
 }
 
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
     .places {
         padding-top: 88px;
     }
 }
 
 
-@media (max-width:320px) {
+@media screen and (max-width:320px) {
     .places {
         padding-top: 64px;
     }
