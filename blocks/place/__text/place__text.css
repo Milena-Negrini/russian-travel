@@ -3,20 +3,21 @@
 }
 
 
-.place__text:first-of-type {
-    padding-bottom: 28px;
+.place__text:nth-of-type(2) {
+    margin-top: 28px;
 }
 
 
 @media screen and (max-width:1024px) {
-    .place__text:first-of-type {
-        padding-bottom: 27px;
+    .place__text:nth-of-type(2) {
+        margin-top: 27px;
     }
 }
 
 
 @media screen and (max-width:768px) {
-    .place__text:first-of-type {
-        padding-bottom: 25px;
+    .place__text:nth-of-type(2) {
+        margin-top: 25px;
     }
 }
+
